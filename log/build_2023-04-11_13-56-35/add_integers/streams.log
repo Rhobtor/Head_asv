@@ -1,0 +1,25 @@
+[0.505s] Invoking command in '/home/aceti/ros2_ws/src/add_integers': PYTHONPATH=/home/aceti/ros2_ws/build/add_integers/prefix_override:/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/aceti/ros2_ws/build/add_integers/build install --record /home/aceti/ros2_ws/build/add_integers/install.log --single-version-externally-managed
+[0.700s] running egg_info
+[0.701s] writing ../../build/add_integers/add_integers.egg-info/PKG-INFO
+[0.701s] writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt
+[0.701s] writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt
+[0.701s] writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt
+[0.701s] writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt
+[0.703s] reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[0.703s] writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[0.704s] running build
+[0.704s] running build_py
+[0.704s] copying add_integers/head_test.py -> /home/aceti/ros2_ws/build/add_integers/build/lib/add_integers
+[0.704s] running install
+[0.705s] running install_lib
+[0.705s] copying /home/aceti/ros2_ws/build/add_integers/build/lib/add_integers/head_test.py -> /home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers
+[0.706s] byte-compiling /home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers/head_test.py to head_test.cpython-310.pyc
+[0.706s] running install_data
+[0.707s] running install_egg_info
+[0.708s] removing '/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info' (and everything under it)
+[0.708s] Copying ../../build/add_integers/add_integers.egg-info to /home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info
+[0.709s] running install_scripts
+[0.725s] Installing move_client script to /home/aceti/ros2_ws/install/add_integers/lib/add_integers
+[0.725s] Installing move_service script to /home/aceti/ros2_ws/install/add_integers/lib/add_integers
+[0.726s] writing list of installed files to '/home/aceti/ros2_ws/build/add_integers/install.log'
+[0.749s] Invoked command in '/home/aceti/ros2_ws/src/add_integers' returned '0': PYTHONPATH=/home/aceti/ros2_ws/build/add_integers/prefix_override:/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/aceti/ros2_ws/build/add_integers/build install --record /home/aceti/ros2_ws/build/add_integers/install.log --single-version-externally-managed

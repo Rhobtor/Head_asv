@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/aceti/ros2_ws/build/head_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aceti/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/aceti/ros2_ws/src/head_controller -DCMAKE_INSTALL_PREFIX=/home/aceti/ros2_ws/install/head_controller
+[0.078s] -- The C compiler identification is GNU 11.3.0
+[0.134s] -- The CXX compiler identification is GNU 11.3.0
+[0.140s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.269s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.412s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.496s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.496s]   By not providing "Findrosidl_defaul_generators.cmake" in CMAKE_MODULE_PATH
+[0.496s]   this project has asked CMake to find a package configuration file provided
+[0.496s]   by "rosidl_defaul_generators", but CMake did not find one.
+[0.496s] 
+[0.496s]   Could not find a package configuration file provided by
+[0.496s]   "rosidl_defaul_generators" with any of the following names:
+[0.496s] 
+[0.496s]     rosidl_defaul_generatorsConfig.cmake
+[0.496s]     rosidl_defaul_generators-config.cmake
+[0.496s] 
+[0.496s]   Add the installation prefix of "rosidl_defaul_generators" to
+[0.496s]   CMAKE_PREFIX_PATH or set "rosidl_defaul_generators_DIR" to a directory
+[0.496s]   containing one of the above files.  If "rosidl_defaul_generators" provides
+[0.497s]   a separate development package or SDK, be sure it has been installed.
+[0.497s] 
+[0.497s] [0m
+[0.497s] -- Configuring incomplete, errors occurred!
+[0.497s] See also "/home/aceti/ros2_ws/build/head_controller/CMakeFiles/CMakeOutput.log".
+[0.500s] Invoked command in '/home/aceti/ros2_ws/build/head_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aceti/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/aceti/ros2_ws/src/head_controller -DCMAKE_INSTALL_PREFIX=/home/aceti/ros2_ws/install/head_controller

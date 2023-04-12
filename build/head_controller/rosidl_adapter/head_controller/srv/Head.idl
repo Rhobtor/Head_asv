@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from head_controller/srv/Head.srv
+// generated code does not contain a copyright notice
+
+
+module head_controller {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct Head_Request {
+      string simbol;
+
+      double distance;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct Head_Response {
+      double movement;
+
+      double movemax;
+
+      double movemin;
+
+      boolean success;
+    };
+  };
+};

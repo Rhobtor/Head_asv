@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.000774] (head_controller) JobQueued: {'identifier': 'head_controller', 'dependencies': OrderedDict()}
+[0.000807] (add_integers) JobQueued: {'identifier': 'add_integers', 'dependencies': OrderedDict([('head_controller', '/home/aceti/ros2_ws/install/head_controller')])}
+[0.000835] (head_controller) JobStarted: {'identifier': 'head_controller'}
+[0.009008] (head_controller) JobProgress: {'identifier': 'head_controller', 'progress': 'cmake'}
+[0.010074] (head_controller) JobProgress: {'identifier': 'head_controller', 'progress': 'build'}
+[0.010643] (head_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aceti/ros2_ws/build/head_controller', '--', '-j8', '-l8'], 'cwd': '/home/aceti/ros2_ws/build/head_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aceti'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aceti/ros2_ws/install/head_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aceti'), ('OLDPWD', '/home/aceti'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '894'), ('SYSTEMD_EXEC_PID', '1059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aceti/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aceti'), ('JOURNAL_STREAM', '8:25585'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aceti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aceti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aceti-laptop:@/tmp/.ICE-unix/1041,unix/aceti-laptop:/tmp/.ICE-unix/1041'), ('INVOCATION_ID', 'f4ce61c030be499fb994d00bae78331a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZPR221'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aceti/ros2_ws/install/add_integers:/home/aceti/ros2_ws/install/head_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b2a45276-0b40-4e3b-a1a1-280264b64948'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aceti/ros2_ws/build/head_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aceti/ros2_ws/install/head_controller:/home/aceti/ros2_ws/install/add_integers:/opt/ros/humble')]), 'shell': False}
+[0.028122] (head_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099397] (-) TimerEvent: {}
+[0.137879] (head_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.139238] (head_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.141303] (head_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.166103] (head_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199493] (-) TimerEvent: {}
+[0.299861] (-) TimerEvent: {}
+[0.371484] (head_controller) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400007] (-) TimerEvent: {}
+[0.500326] (-) TimerEvent: {}
+[0.516266] (head_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600494] (-) TimerEvent: {}
+[0.700811] (-) TimerEvent: {}
+[0.717832] (head_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.735463] (head_controller) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.753145] (head_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.753311] (head_controller) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.753372] (head_controller) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.761931] (head_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.768629] (head_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.769191] (head_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.770394] (head_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.789369] (head_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[0.791470] (head_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/aceti/ros2_ws/build/head_controller\n'}
+[0.800935] (-) TimerEvent: {}
+[0.807323] (head_controller) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.813619] (head_controller) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.820065] (head_controller) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_head_controller\n'}
+[0.901033] (-) TimerEvent: {}
+[1.001331] (-) TimerEvent: {}
+[1.051350] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_generator_c\x1b[0m\n'}
+[1.056774] (head_controller) StdoutLine: {'line': b'[  6%] Built target head_controller__cpp\n'}
+[1.060256] (head_controller) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/head_controller__rosidl_generator_c.dir/rosidl_generator_c/head_controller/srv/detail/head__functions.c.o\x1b[0m\n'}
+[1.063990] (head_controller) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.064383] (head_controller) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.064545] (head_controller) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.101428] (-) TimerEvent: {}
+[1.106175] (head_controller) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libhead_controller__rosidl_generator_c.so\x1b[0m\n'}
+[1.135100] (head_controller) StdoutLine: {'line': b'[ 22%] Built target head_controller__rosidl_generator_c\n'}
+[1.139902] (head_controller) StdoutLine: {'line': b'running egg_info\n'}
+[1.141498] (head_controller) StdoutLine: {'line': b'writing head_controller.egg-info/PKG-INFO\n'}
+[1.142094] (head_controller) StdoutLine: {'line': b'writing dependency_links to head_controller.egg-info/dependency_links.txt\n'}
+[1.142543] (head_controller) StdoutLine: {'line': b'writing top-level names to head_controller.egg-info/top_level.txt\n'}
+[1.145819] (head_controller) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.146740] (head_controller) StdoutLine: {'line': b"reading manifest file 'head_controller.egg-info/SOURCES.txt'\n"}
+[1.147835] (head_controller) StdoutLine: {'line': b"writing manifest file 'head_controller.egg-info/SOURCES.txt'\n"}
+[1.148389] (head_controller) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.156594] (head_controller) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.186053] (head_controller) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_head_controller_egg\n'}
+[1.201526] (-) TimerEvent: {}
+[1.302061] (-) TimerEvent: {}
+[1.370511] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.383322] (head_controller) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/head_controller/srv/head__type_support.cpp.o\x1b[0m\n'}
+[1.402623] (-) TimerEvent: {}
+[1.452259] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.465481] (head_controller) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/head_controller/srv/detail/head__type_support.cpp.o\x1b[0m\n'}
+[1.471371] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.486444] (head_controller) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/head_controller/srv/detail/dds_fastrtps/head__type_support.cpp.o\x1b[0m\n'}
+[1.502723] (-) TimerEvent: {}
+[1.505113] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_c\x1b[0m\n'}
+[1.516824] (head_controller) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/head_controller/srv/head__type_support.cpp.o\x1b[0m\n'}
+[1.537982] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.551707] (head_controller) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libhead_controller__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.552413] (head_controller) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/head_controller/srv/detail/head__type_support_c.cpp.o\x1b[0m\n'}
+[1.559751] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.574338] (head_controller) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/head_controller/srv/detail/head__type_support.c.o\x1b[0m\n'}
+[1.596825] (head_controller) StdoutLine: {'line': b'[ 54%] Built target head_controller__rosidl_typesupport_c\n'}
+[1.602836] (-) TimerEvent: {}
+[1.615195] (head_controller) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libhead_controller__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.647562] (head_controller) StdoutLine: {'line': b'[ 58%] Built target head_controller__rosidl_typesupport_introspection_c\n'}
+[1.675063] (head_controller) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libhead_controller__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.702948] (-) TimerEvent: {}
+[1.704153] (head_controller) StdoutLine: {'line': b'[ 61%] Built target head_controller__rosidl_typesupport_cpp\n'}
+[1.803061] (-) TimerEvent: {}
+[1.851831] (head_controller) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libhead_controller__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.869486] (head_controller) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libhead_controller__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.903205] (-) TimerEvent: {}
+[1.903920] (head_controller) StdoutLine: {'line': b'[ 67%] Built target head_controller__rosidl_typesupport_introspection_cpp\n'}
+[1.918329] (head_controller) StdoutLine: {'line': b'[ 67%] Built target head_controller__rosidl_typesupport_fastrtps_c\n'}
+[1.922009] (head_controller) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libhead_controller__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.977801] (head_controller) StdoutLine: {'line': b'[ 70%] Built target head_controller__rosidl_typesupport_fastrtps_cpp\n'}
+[1.990607] (head_controller) StdoutLine: {'line': b'[ 70%] Built target head_controller\n'}
+[2.003322] (-) TimerEvent: {}
+[2.004705] (head_controller) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.103423] (-) TimerEvent: {}
+[2.203737] (-) TimerEvent: {}
+[2.304086] (-) TimerEvent: {}
+[2.306548] (head_controller) StdoutLine: {'line': b'[ 74%] Built target head_controller__py\n'}
+[2.313231] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_generator_py\x1b[0m\n'}
+[2.322322] (head_controller) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/head_controller__rosidl_generator_py.dir/rosidl_generator_py/head_controller/srv/_head_s.c.o\x1b[0m\n'}
+[2.397173] (head_controller) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/head_controller/libhead_controller__rosidl_generator_py.so\x1b[0m\n'}
+[2.404211] (-) TimerEvent: {}
+[2.424139] (head_controller) StdoutLine: {'line': b'[ 80%] Built target head_controller__rosidl_generator_py\n'}
+[2.431195] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.431492] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.431593] (head_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.440487] (head_controller) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/head_controller/_head_controller_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.441713] (head_controller) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/head_controller/_head_controller_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.443274] (head_controller) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/head_controller/_head_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.504319] (-) TimerEvent: {}
+[2.510521] (head_controller) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.534618] (head_controller) StdoutLine: {'line': b'[ 93%] Built target head_controller__rosidl_typesupport_introspection_c__pyext\n'}
+[2.553763] (head_controller) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.557433] (head_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.576362] (head_controller) StdoutLine: {'line': b'[100%] Built target head_controller__rosidl_typesupport_c__pyext\n'}
+[2.580771] (head_controller) StdoutLine: {'line': b'[100%] Built target head_controller__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.588736] (head_controller) CommandEnded: {'returncode': 0}
+[2.604396] (-) TimerEvent: {}
+[2.623910] (head_controller) JobProgress: {'identifier': 'head_controller', 'progress': 'install'}
+[2.630039] (head_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aceti/ros2_ws/build/head_controller'], 'cwd': '/home/aceti/ros2_ws/build/head_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aceti'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aceti/ros2_ws/install/head_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aceti'), ('OLDPWD', '/home/aceti'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '894'), ('SYSTEMD_EXEC_PID', '1059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4804'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/aceti/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aceti'), ('JOURNAL_STREAM', '8:25585'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aceti'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/aceti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aceti-laptop:@/tmp/.ICE-unix/1041,unix/aceti-laptop:/tmp/.ICE-unix/1041'), ('INVOCATION_ID', 'f4ce61c030be499fb994d00bae78331a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZPR221'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aceti/ros2_ws/install/add_integers:/home/aceti/ros2_ws/install/head_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:b2a45276-0b40-4e3b-a1a1-280264b64948'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aceti/ros2_ws/build/head_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aceti/ros2_ws/install/head_controller:/home/aceti/ros2_ws/install/add_integers:/opt/ros/humble')]), 'shell': False}
+[2.636407] (head_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.636599] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/ament_index/resource_index/rosidl_interfaces/head_controller\n'}
+[2.636669] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller\n'}
+[2.636722] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg\n'}
+[2.636775] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.636862] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv\n'}
+[2.636911] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/head.h\n'}
+[2.636967] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail\n'}
+[2.637016] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__functions.h\n'}
+[2.637064] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__struct.h\n'}
+[2.637112] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__functions.c\n'}
+[2.637164] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__type_support.h\n'}
+[2.637253] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/library_path.sh\n'}
+[2.637350] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/library_path.dsv\n'}
+[2.637402] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_generator_c.so\n'}
+[2.637480] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_generator_c.so" to ""\n'}
+[2.637596] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller\n'}
+[2.637700] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg\n'}
+[2.637752] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.637800] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv\n'}
+[2.637852] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail\n'}
+[2.637914] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_fastrtps_c.h\n'}
+[2.637995] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_c.so\n'}
+[2.638455] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.638586] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller\n'}
+[2.638641] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg\n'}
+[2.638731] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.638783] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv\n'}
+[2.638830] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail\n'}
+[2.638876] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_introspection_c.h\n'}
+[2.638925] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__type_support.c\n'}
+[2.639004] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_c.so\n'}
+[2.639151] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.639252] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_c.so\n'}
+[2.639461] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_c.so" to ""\n'}
+[2.639555] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller\n'}
+[2.639606] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv\n'}
+[2.639653] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/head.hpp\n'}
+[2.639726] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail\n'}
+[2.639802] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__builder.hpp\n'}
+[2.639874] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__traits.hpp\n'}
+[2.639938] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__struct.hpp\n'}
+[2.640021] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller\n'}
+[2.640093] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg\n'}
+[2.640184] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.640234] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv\n'}
+[2.640282] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail\n'}
+[2.640330] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.640403] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/dds_fastrtps\n'}
+[2.640471] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.640659] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.640747] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller\n'}
+[2.640842] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv\n'}
+[2.640897] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail\n'}
+[2.640947] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__type_support.cpp\n'}
+[2.641022] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.641104] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_cpp.so\n'}
+[2.641383] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.641477] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_cpp.so\n'}
+[2.641676] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_typesupport_cpp.so" to ""\n'}
+[2.641768] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/pythonpath.sh\n'}
+[2.641820] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/pythonpath.dsv\n'}
+[2.641906] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info\n'}
+[2.641955] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.642038] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.642109] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.642185] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.642296] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller\n'}
+[2.642376] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.642457] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.642567] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/_head_controller_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.642668] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/_head_controller_s.ep.rosidl_typesupport_c.c\n'}
+[2.642767] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/__init__.py\n'}
+[2.642838] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.642948] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/libhead_controller__rosidl_generator_py.so\n'}
+[2.643059] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/_head_controller_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.643151] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv\n'}
+[2.643230] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/__init__.py\n'}
+[2.643304] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_head.py\n'}
+[2.643396] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_head_s.c\n'}
+[2.671611] (head_controller) StdoutLine: {'line': b"Listing '/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller'...\n"}
+[2.671812] (head_controller) StdoutLine: {'line': b"Compiling '/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/__init__.py'...\n"}
+[2.671906] (head_controller) StdoutLine: {'line': b"Listing '/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv'...\n"}
+[2.671982] (head_controller) StdoutLine: {'line': b"Compiling '/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/__init__.py'...\n"}
+[2.672057] (head_controller) StdoutLine: {'line': b"Compiling '/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_head.py'...\n"}
+[2.676369] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.676584] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.676672] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.676754] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.676837] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.676945] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.677038] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_generator_py.so\n'}
+[2.677121] (head_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/aceti/ros2_ws/install/head_controller/lib/libhead_controller__rosidl_generator_py.so" to ""\n'}
+[2.677239] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/srv/Head.idl\n'}
+[2.677353] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/srv/Head.srv\n'}
+[2.677460] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/srv/Head_Request.msg\n'}
+[2.677557] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/srv/Head_Response.msg\n'}
+[2.677669] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/ament_index/resource_index/package_run_dependencies/head_controller\n'}
+[2.677748] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/ament_index/resource_index/parent_prefix_path/head_controller\n'}
+[2.677825] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/ament_prefix_path.sh\n'}
+[2.677927] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/ament_prefix_path.dsv\n'}
+[2.678061] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/path.sh\n'}
+[2.678141] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/environment/path.dsv\n'}
+[2.678217] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/local_setup.bash\n'}
+[2.678293] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/local_setup.sh\n'}
+[2.678370] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/local_setup.zsh\n'}
+[2.678446] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/local_setup.dsv\n'}
+[2.678548] (head_controller) StdoutLine: {'line': b'-- Installing: /home/aceti/ros2_ws/install/head_controller/share/head_controller/package.dsv\n'}
+[2.678699] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/ament_index/resource_index/packages/head_controller\n'}
+[2.678778] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_cExport.cmake\n'}
+[2.678857] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.678934] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.679012] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.679087] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.679259] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.679339] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cExport.cmake\n'}
+[2.679415] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.679490] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_cppExport.cmake\n'}
+[2.679567] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.679644] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.679777] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.679853] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.679926] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cppExport.cmake\n'}
+[2.680003] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.680077] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_pyExport.cmake\n'}
+[2.680151] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.680224] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/rosidl_cmake-extras.cmake\n'}
+[2.680299] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.680383] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.680460] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.680535] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.680611] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.680704] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.680784] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controllerConfig.cmake\n'}
+[2.680907] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/cmake/head_controllerConfig-version.cmake\n'}
+[2.681147] (head_controller) StdoutLine: {'line': b'-- Up-to-date: /home/aceti/ros2_ws/install/head_controller/share/head_controller/package.xml\n'}
+[2.681904] (head_controller) CommandEnded: {'returncode': 0}
+[2.704482] (-) TimerEvent: {}
+[2.748666] (head_controller) JobEnded: {'identifier': 'head_controller', 'rc': 0}
+[2.751157] (add_integers) JobStarted: {'identifier': 'add_integers'}
+[2.804641] (-) TimerEvent: {}
+[2.904962] (-) TimerEvent: {}
+[3.005245] (-) TimerEvent: {}
+[3.105500] (-) TimerEvent: {}
+[3.205760] (-) TimerEvent: {}
+[3.276779] (add_integers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/add_integers', 'build', '--build-base', '/home/aceti/ros2_ws/build/add_integers/build', 'install', '--record', '/home/aceti/ros2_ws/build/add_integers/install.log', '--single-version-externally-managed'], 'cwd': '/home/aceti/ros2_ws/src/add_integers', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aceti', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aceti/ros2_ws/install/head_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aceti', 'OLDPWD': '/home/aceti', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'MANAGERPID': '894', 'SYSTEMD_EXEC_PID': '1059', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4804', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aceti/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'aceti', 'JOURNAL_STREAM': '8:25585', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aceti', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/aceti/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aceti-laptop:@/tmp/.ICE-unix/1041,unix/aceti-laptop:/tmp/.ICE-unix/1041', 'INVOCATION_ID': 'f4ce61c030be499fb994d00bae78331a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZPR221', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aceti/ros2_ws/install/add_integers:/home/aceti/ros2_ws/install/head_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:b2a45276-0b40-4e3b-a1a1-280264b64948', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aceti/ros2_ws/build/add_integers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aceti/ros2_ws/build/add_integers/prefix_override:/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages:/home/aceti/ros2_ws/install/head_controller/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/aceti/ros2_ws/install/head_controller'}, 'shell': False}
+[3.305887] (-) TimerEvent: {}
+[3.406177] (-) TimerEvent: {}
+[3.478532] (add_integers) StdoutLine: {'line': b'running egg_info\n'}
+[3.478933] (add_integers) StdoutLine: {'line': b'writing ../../build/add_integers/add_integers.egg-info/PKG-INFO\n'}
+[3.479098] (add_integers) StdoutLine: {'line': b'writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt\n'}
+[3.479213] (add_integers) StdoutLine: {'line': b'writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt\n'}
+[3.479325] (add_integers) StdoutLine: {'line': b'writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt\n'}
+[3.479401] (add_integers) StdoutLine: {'line': b'writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt\n'}
+[3.480889] (add_integers) StdoutLine: {'line': b"reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'\n"}
+[3.481615] (add_integers) StdoutLine: {'line': b"writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'\n"}
+[3.481785] (add_integers) StdoutLine: {'line': b'running build\n'}
+[3.481875] (add_integers) StdoutLine: {'line': b'running build_py\n'}
+[3.481949] (add_integers) StdoutLine: {'line': b'copying add_integers/service_node.py -> /home/aceti/ros2_ws/build/add_integers/build/lib/add_integers\n'}
+[3.482108] (add_integers) StdoutLine: {'line': b'running install\n'}
+[3.482274] (add_integers) StdoutLine: {'line': b'running install_lib\n'}
+[3.482763] (add_integers) StdoutLine: {'line': b'copying /home/aceti/ros2_ws/build/add_integers/build/lib/add_integers/service_node.py -> /home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers\n'}
+[3.483190] (add_integers) StdoutLine: {'line': b'byte-compiling /home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers/service_node.py to service_node.cpython-310.pyc\n'}
+[3.483654] (add_integers) StdoutLine: {'line': b'running install_data\n'}
+[3.484051] (add_integers) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.485261] (add_integers) StdoutLine: {'line': b"removing '/home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.485436] (add_integers) StdoutLine: {'line': b'Copying ../../build/add_integers/add_integers.egg-info to /home/aceti/ros2_ws/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info\n'}
+[3.485959] (add_integers) StdoutLine: {'line': b'running install_scripts\n'}
+[3.501198] (add_integers) StdoutLine: {'line': b'Installing move_client script to /home/aceti/ros2_ws/install/add_integers/lib/add_integers\n'}
+[3.501408] (add_integers) StdoutLine: {'line': b'Installing move_service script to /home/aceti/ros2_ws/install/add_integers/lib/add_integers\n'}
+[3.501535] (add_integers) StdoutLine: {'line': b"writing list of installed files to '/home/aceti/ros2_ws/build/add_integers/install.log'\n"}
+[3.506302] (-) TimerEvent: {}
+[3.522308] (add_integers) CommandEnded: {'returncode': 0}
+[3.528383] (add_integers) JobEnded: {'identifier': 'add_integers', 'rc': 0}
+[3.528892] (-) EventReactorShutdown: {}
