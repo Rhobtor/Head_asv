@@ -1,6 +1,0 @@
-{
-  "package_name": "head_controller",
-  "non_idl_tuples": [
-    "/home/aceti/ros2_ws/src/head_controller:srv/head.srv"
-  ]
-}

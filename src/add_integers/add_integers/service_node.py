@@ -5,14 +5,14 @@ from head_controller.srv import Head
 class HeadServicie(Node):
     def __init__(self):
         super().__init__("add_int_service")
-        self.min_distnace_head= 0
-        self.max_distance_head = 5
+        self.min_distnace_head= 0 
+        self.max_distance_head = 5 #limite superior e inferior, si se añade un sensor añadir una entrada mas al servicio
         self.service=self.create_service(
             Head,
             "add_distance",
             self.add_distance_callback
         )
-
+    # Se le ha añadido los simbolos + y- porque al introducir los negativos por terminal en nodo ejemplo daban error
     def add_distance_callback(self,request,response):
         if request.simbol == "+":
             if request.distance <= self.max_distance_head:
