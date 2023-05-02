@@ -12,8 +12,10 @@ class MoveHeadAsync(Node):
         
     def send_request(self):
         request = Head.Request()
+        # serial_number='55736313338351E04022'
         request.simbol= str(sys.argv[1])
         request.distance= float(sys.argv[2])
+        # request.number_serial=str(sys.argv[3])
         self.future=self.client.call_async(request)
 
 
