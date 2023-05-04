@@ -1,2 +1,2 @@
 # Head_asv
-Version con servicio de busqueda de puertos genericos
+Version con servicio adicional para la  busqueda de puertos con la introduccion del numero de serie del dispositivo
