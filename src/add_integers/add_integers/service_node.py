@@ -18,7 +18,7 @@ class HeadServicie(Node):
             "add_distance",
             self.add_distance_callback
         )
-        
+#hola        
     def serial_port_find_arduino(self):
         for pinfo in serial.tools.list_ports.comports():
              if pinfo.serial_number == "55736313338351E04022":
