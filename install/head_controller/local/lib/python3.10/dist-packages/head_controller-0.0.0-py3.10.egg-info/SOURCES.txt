@@ -6,3 +6,4 @@ head_controller.egg-info/dependency_links.txt
 head_controller.egg-info/top_level.txt
 head_controller/srv/__init__.py
 head_controller/srv/_head.py
+head_controller/srv/_serial_number.py

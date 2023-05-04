@@ -1,9 +1,10 @@
 {
   "package_name": "head_controller",
-  "output_dir": "/home/aceti/ros2_ws/build/head_controller/rosidl_typesupport_introspection_cpp/head_controller",
+  "output_dir": "/home/aceti/head/Head_asv/build/head_controller/rosidl_typesupport_introspection_cpp/head_controller",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/aceti/ros2_ws/build/head_controller/rosidl_adapter/head_controller:srv/Head.idl"
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller:srv/Head.idl",
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller:srv/SerialNumber.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/aceti/ros2_ws/build/head_controller/rosidl_adapter/head_controller/srv/Head.idl"
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller/srv/Head.idl",
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller/srv/SerialNumber.idl"
   ]
 }

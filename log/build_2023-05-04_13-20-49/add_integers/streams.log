@@ -1,0 +1,25 @@
+[0.533s] Invoking command in '/home/aceti/head/Head_asv/src/add_integers': PYTHONPATH=/home/aceti/head/Head_asv/build/add_integers/prefix_override:/home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/aceti/head/Head_asv/build/add_integers/build install --record /home/aceti/head/Head_asv/build/add_integers/install.log --single-version-externally-managed
+[0.737s] running egg_info
+[0.738s] writing ../../build/add_integers/add_integers.egg-info/PKG-INFO
+[0.738s] writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt
+[0.738s] writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt
+[0.738s] writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt
+[0.738s] writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt
+[0.742s] reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[0.742s] writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[0.749s] running build
+[0.749s] running build_py
+[0.749s] copying add_integers/service_node.py -> /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers
+[0.749s] running install
+[0.749s] running install_lib
+[0.749s] copying /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers/service_node.py -> /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers
+[0.749s] byte-compiling /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers/service_node.py to service_node.cpython-310.pyc
+[0.750s] running install_data
+[0.750s] running install_egg_info
+[0.750s] removing '/home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info' (and everything under it)
+[0.750s] Copying ../../build/add_integers/add_integers.egg-info to /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info
+[0.751s] running install_scripts
+[0.777s] Installing move_client script to /home/aceti/head/Head_asv/install/add_integers/lib/add_integers
+[0.777s] Installing move_service script to /home/aceti/head/Head_asv/install/add_integers/lib/add_integers
+[0.777s] writing list of installed files to '/home/aceti/head/Head_asv/build/add_integers/install.log'
+[0.811s] Invoked command in '/home/aceti/head/Head_asv/src/add_integers' returned '0': PYTHONPATH=/home/aceti/head/Head_asv/build/add_integers/prefix_override:/home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/aceti/head/Head_asv/build/add_integers/build install --record /home/aceti/head/Head_asv/build/add_integers/install.log --single-version-externally-managed

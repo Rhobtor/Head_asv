@@ -1,8 +1,8 @@
-# Install script for directory: /home/aceti/ros2_ws/build/head_controller/head_controller__py
+# Install script for directory: /home/aceti/head/Head_asv/build/head_controller/head_controller__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aceti/ros2_ws/install/head_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/aceti/head/Head_asv/install/head_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

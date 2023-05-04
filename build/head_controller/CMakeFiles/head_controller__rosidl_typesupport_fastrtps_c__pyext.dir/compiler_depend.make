@@ -247,8 +247,15 @@ CMakeFiles/head_controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gene
   rosidl_generator_c/head_controller/srv/detail/head__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/head_controller/srv/detail/head__functions.h
+  rosidl_generator_c/head_controller/srv/detail/head__functions.h \
+  rosidl_generator_c/head_controller/srv/detail/serial_number__type_support.h \
+  rosidl_generator_c/head_controller/srv/detail/serial_number__struct.h \
+  rosidl_generator_c/head_controller/srv/detail/serial_number__functions.h
 
+
+rosidl_generator_c/head_controller/srv/detail/serial_number__struct.h:
+
+rosidl_generator_c/head_controller/srv/detail/serial_number__type_support.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -485,6 +492,8 @@ rosidl_generator_c/head_controller/srv/detail/head__struct.h:
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
+
+rosidl_generator_c/head_controller/srv/detail/serial_number__functions.h:
 
 /usr/include/python3.10/patchlevel.h:
 

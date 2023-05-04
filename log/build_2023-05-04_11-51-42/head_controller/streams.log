@@ -1,0 +1,252 @@
+[0.011s] Invoking command in '/home/aceti/head/Head_asv/build/head_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aceti/head/Head_asv/install/add_integers:/home/aceti/sonar/install/sonar_controller:/opt/ros/humble /usr/bin/cmake --build /home/aceti/head/Head_asv/build/head_controller -- -j8 -l8
+[0.028s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.142s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.397s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.801s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.819s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.819s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.819s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.828s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.834s] -- Added test 'lint_cmake' to check CMake code style
+[0.834s] -- Added test 'xmllint' to check XML markup files
+[0.836s] -- Configuring done
+[0.857s] -- Generating done
+[0.859s] -- Build files have been written to: /home/aceti/head/Head_asv/build/head_controller
+[0.912s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.945s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.952s] [  5%] Built target ament_cmake_python_copy_head_controller
+[1.535s] running egg_info
+[1.543s] writing head_controller.egg-info/PKG-INFO
+[1.545s] writing dependency_links to head_controller.egg-info/dependency_links.txt
+[1.547s] writing top-level names to head_controller.egg-info/top_level.txt
+[1.561s] reading manifest file 'head_controller.egg-info/SOURCES.txt'
+[1.565s] writing manifest file 'head_controller.egg-info/SOURCES.txt'
+[1.606s] [  5%] Built target ament_cmake_python_build_head_controller_egg
+[1.782s] [  5%] Built target head_controller__cpp
+[1.786s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_generator_c[0m
+[1.803s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.805s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.809s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.821s] [ 15%] [32mBuilding C object CMakeFiles/head_controller__rosidl_generator_c.dir/rosidl_generator_c/head_controller/srv/detail/head__functions.c.o[0m
+[1.834s] [ 17%] [32mBuilding C object CMakeFiles/head_controller__rosidl_generator_c.dir/rosidl_generator_c/head_controller/srv/detail/serial_number__functions.c.o[0m
+[2.077s] [ 20%] [32m[1mLinking C shared library libhead_controller__rosidl_generator_c.so[0m
+[2.188s] [ 20%] Built target head_controller__rosidl_generator_c
+[2.273s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.282s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.282s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.692s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_cpp[0m
+[3.711s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_introspection_cpp[0m
+[3.827s] [ 30%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/head_controller/srv/detail/serial_number__type_support.cpp.o[0m
+[3.854s] [ 33%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/head_controller/srv/head__type_support.cpp.o[0m
+[3.855s] [ 35%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/head_controller/srv/detail/head__type_support.cpp.o[0m
+[3.903s] [ 38%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/head_controller/srv/serial_number__type_support.cpp.o[0m
+[4.130s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_fastrtps_cpp[0m
+[4.149s] [ 41%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/head_controller/srv/detail/dds_fastrtps/head__type_support.cpp.o[0m
+[4.212s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_c[0m
+[4.238s] [ 43%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/head_controller/srv/head__type_support.cpp.o[0m
+[4.294s] [ 46%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/head_controller/srv/serial_number__type_support.cpp.o[0m
+[4.302s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_introspection_c[0m
+[4.329s] [ 48%] [32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/head_controller/srv/detail/head__type_support.c.o[0m
+[4.356s] [ 51%] [32m[1mLinking CXX shared library libhead_controller__rosidl_typesupport_c.so[0m
+[4.377s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_fastrtps_c[0m
+[4.394s] [ 53%] [32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/head_controller/srv/detail/serial_number__type_support.c.o[0m
+[4.397s] [ 56%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/head_controller/srv/detail/head__type_support_c.cpp.o[0m
+[4.414s] [ 56%] Built target head_controller__rosidl_typesupport_c
+[4.420s] [ 58%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/head_controller/srv/detail/dds_fastrtps/serial_number__type_support.cpp.o[0m
+[4.426s] [ 61%] [32mBuilding CXX object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/head_controller/srv/detail/serial_number__type_support_c.cpp.o[0m
+[4.459s] [ 64%] [32m[1mLinking C shared library libhead_controller__rosidl_typesupport_introspection_c.so[0m
+[4.463s] [ 66%] [32m[1mLinking CXX shared library libhead_controller__rosidl_typesupport_cpp.so[0m
+[4.519s] [ 66%] Built target head_controller__rosidl_typesupport_introspection_c
+[4.530s] [ 66%] Built target head_controller__rosidl_typesupport_cpp
+[4.586s] [ 69%] [32m[1mLinking CXX shared library libhead_controller__rosidl_typesupport_introspection_cpp.so[0m
+[4.648s] [ 69%] Built target head_controller__rosidl_typesupport_introspection_cpp
+[4.870s] [ 71%] [32m[1mLinking CXX shared library libhead_controller__rosidl_typesupport_fastrtps_c.so[0m
+[4.923s] [ 74%] [32m[1mLinking CXX shared library libhead_controller__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.937s] [ 74%] Built target head_controller__rosidl_typesupport_fastrtps_c
+[4.987s] [ 74%] Built target head_controller__rosidl_typesupport_fastrtps_cpp
+[5.004s] [ 74%] Built target head_controller
+[5.023s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.596s] [ 76%] Built target head_controller__py
+[5.604s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_generator_py[0m
+[5.615s] [ 82%] [32mBuilding C object CMakeFiles/head_controller__rosidl_generator_py.dir/rosidl_generator_py/head_controller/srv/_serial_number_s.c.o[0m
+[5.615s] [ 82%] [32mBuilding C object CMakeFiles/head_controller__rosidl_generator_py.dir/rosidl_generator_py/head_controller/srv/_head_s.c.o[0m
+[5.709s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/head_controller/libhead_controller__rosidl_generator_py.so[0m
+[5.742s] [ 84%] Built target head_controller__rosidl_generator_py
+[5.751s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_introspection_c__pyext[0m
+[5.751s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_c__pyext[0m
+[5.751s] [35m[1mConsolidate compiler generated dependencies of target head_controller__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.762s] [ 89%] [32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/head_controller/_head_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.762s] [ 89%] [32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/head_controller/_head_controller_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.762s] [ 92%] [32mBuilding C object CMakeFiles/head_controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/head_controller/_head_controller_s.ep.rosidl_typesupport_c.c.o[0m
+[5.852s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.852s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.853s] [100%] [32m[1mLinking C shared library rosidl_generator_py/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.880s] [100%] Built target head_controller__rosidl_typesupport_introspection_c__pyext
+[5.881s] [100%] Built target head_controller__rosidl_typesupport_fastrtps_c__pyext
+[5.881s] [100%] Built target head_controller__rosidl_typesupport_c__pyext
+[5.890s] Invoked command in '/home/aceti/head/Head_asv/build/head_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aceti/head/Head_asv/install/add_integers:/home/aceti/sonar/install/sonar_controller:/opt/ros/humble /usr/bin/cmake --build /home/aceti/head/Head_asv/build/head_controller -- -j8 -l8
+[5.954s] Invoking command in '/home/aceti/head/Head_asv/build/head_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aceti/head/Head_asv/install/add_integers:/home/aceti/sonar/install/sonar_controller:/opt/ros/humble /usr/bin/cmake --install /home/aceti/head/Head_asv/build/head_controller
+[5.960s] -- Install configuration: ""
+[5.960s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/ament_index/resource_index/rosidl_interfaces/head_controller
+[5.960s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller
+[5.960s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg
+[5.960s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg/rosidl_generator_c__visibility_control.h
+[5.960s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv
+[5.960s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/head.h
+[5.961s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__functions.h
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__struct.h
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__type_support.h
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__functions.c
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__functions.c
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__struct.h
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__type_support.h
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__functions.h
+[5.961s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/serial_number.h
+[5.962s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/library_path.sh
+[5.962s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/library_path.dsv
+[5.962s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_generator_c.so
+[5.962s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_generator_c.so" to ""
+[5.962s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller
+[5.962s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg
+[5.962s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.962s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv
+[5.962s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail
+[5.962s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_fastrtps_c.h
+[5.963s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__rosidl_typesupport_fastrtps_c.h
+[5.963s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_c.so
+[5.963s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_c.so" to ""
+[5.963s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller
+[5.963s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg
+[5.963s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.963s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv
+[5.963s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail
+[5.963s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_introspection_c.h
+[5.963s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__type_support.c
+[5.964s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__rosidl_typesupport_introspection_c.h
+[5.964s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__type_support.c
+[5.964s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_c.so
+[5.964s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_c.so" to ""
+[5.964s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_c.so
+[5.964s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_c.so" to ""
+[5.964s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller
+[5.964s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv
+[5.964s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/serial_number.hpp
+[5.964s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/head.hpp
+[5.965s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail
+[5.965s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__builder.hpp
+[5.965s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__traits.hpp
+[5.965s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__struct.hpp
+[5.965s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__builder.hpp
+[5.965s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__struct.hpp
+[5.965s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__traits.hpp
+[5.965s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller
+[5.965s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg
+[5.965s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.966s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv
+[5.966s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail
+[5.966s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_fastrtps_cpp.hpp
+[5.966s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__rosidl_typesupport_fastrtps_cpp.hpp
+[5.966s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/dds_fastrtps
+[5.966s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_cpp.so
+[5.966s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.966s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller
+[5.966s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv
+[5.966s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail
+[5.967s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__rosidl_typesupport_introspection_cpp.hpp
+[5.967s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/serial_number__type_support.cpp
+[5.967s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__type_support.cpp
+[5.967s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/include/head_controller/head_controller/srv/detail/head__rosidl_typesupport_introspection_cpp.hpp
+[5.967s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_cpp.so
+[5.967s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_introspection_cpp.so" to ""
+[5.967s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_cpp.so
+[5.967s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_typesupport_cpp.so" to ""
+[5.967s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/pythonpath.sh
+[5.967s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/pythonpath.dsv
+[5.968s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/top_level.txt
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[5.968s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/_head_controller_s.ep.rosidl_typesupport_introspection_c.c
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/_head_controller_s.ep.rosidl_typesupport_c.c
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/__init__.py
+[5.968s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.969s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/libhead_controller__rosidl_generator_py.so
+[5.969s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/_head_controller_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.969s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv
+[5.969s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/__init__.py
+[5.969s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_serial_number_s.c
+[5.969s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_head.py
+[5.969s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_serial_number.py
+[5.969s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_head_s.c
+[6.003s] Listing '/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller'...
+[6.003s] Compiling '/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/__init__.py'...
+[6.003s] Listing '/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv'...
+[6.003s] Compiling '/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/__init__.py'...
+[6.003s] Compiling '/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_head.py'...
+[6.004s] Compiling '/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/srv/_serial_number.py'...
+[6.007s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.008s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.008s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.008s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.008s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.008s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages/head_controller/head_controller_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.008s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_generator_py.so
+[6.009s] -- Set runtime path of "/home/aceti/head/Head_asv/install/head_controller/lib/libhead_controller__rosidl_generator_py.so" to ""
+[6.009s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/Head.idl
+[6.009s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/SerialNumber.idl
+[6.009s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/Head.srv
+[6.009s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/Head_Request.msg
+[6.009s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/Head_Response.msg
+[6.009s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/SerialNumber.srv
+[6.009s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/SerialNumber_Request.msg
+[6.009s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/srv/SerialNumber_Response.msg
+[6.010s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/ament_index/resource_index/package_run_dependencies/head_controller
+[6.010s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/ament_index/resource_index/parent_prefix_path/head_controller
+[6.010s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/ament_prefix_path.sh
+[6.010s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/ament_prefix_path.dsv
+[6.010s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/path.sh
+[6.010s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/environment/path.dsv
+[6.010s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/local_setup.bash
+[6.010s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/local_setup.sh
+[6.010s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/local_setup.zsh
+[6.011s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/local_setup.dsv
+[6.011s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/package.dsv
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/ament_index/resource_index/packages/head_controller
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_cExport.cmake
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_cExport-noconfig.cmake
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cExport.cmake
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cExport.cmake
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.011s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cExport.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cExport-noconfig.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_cppExport.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cppExport.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cppExport.cmake
+[6.012s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controller__rosidl_typesupport_cppExport-noconfig.cmake
+[6.013s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_pyExport.cmake
+[6.013s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/export_head_controller__rosidl_generator_pyExport-noconfig.cmake
+[6.014s] -- Installing: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/rosidl_cmake-extras.cmake
+[6.014s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/ament_cmake_export_targets-extras.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controllerConfig.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/cmake/head_controllerConfig-version.cmake
+[6.015s] -- Up-to-date: /home/aceti/head/Head_asv/install/head_controller/share/head_controller/package.xml
+[6.016s] Invoked command in '/home/aceti/head/Head_asv/build/head_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aceti/head/Head_asv/install/add_integers:/home/aceti/sonar/install/sonar_controller:/opt/ros/humble /usr/bin/cmake --install /home/aceti/head/Head_asv/build/head_controller

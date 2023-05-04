@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/head_controller__rosidl_generator_py.dir/rosidl_generator_py/head_controller/srv/_head_s.c.o"
   "CMakeFiles/head_controller__rosidl_generator_py.dir/rosidl_generator_py/head_controller/srv/_head_s.c.o.d"
+  "CMakeFiles/head_controller__rosidl_generator_py.dir/rosidl_generator_py/head_controller/srv/_serial_number_s.c.o"
+  "CMakeFiles/head_controller__rosidl_generator_py.dir/rosidl_generator_py/head_controller/srv/_serial_number_s.c.o.d"
   "rosidl_generator_py/head_controller/libhead_controller__rosidl_generator_py.pdb"
   "rosidl_generator_py/head_controller/libhead_controller__rosidl_generator_py.so"
 )

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/head_controller/srv/__init__.py"
   "../rosidl_generator_py/head_controller/srv/_head.py"
   "../rosidl_generator_py/head_controller/srv/_head_s.c"
+  "../rosidl_generator_py/head_controller/srv/_serial_number.py"
+  "../rosidl_generator_py/head_controller/srv/_serial_number_s.c"
   "CMakeFiles/head_controller__py"
 )
 

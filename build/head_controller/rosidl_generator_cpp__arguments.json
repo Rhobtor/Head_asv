@@ -1,9 +1,10 @@
 {
   "package_name": "head_controller",
-  "output_dir": "/home/aceti/ros2_ws/build/head_controller/rosidl_generator_cpp/head_controller",
+  "output_dir": "/home/aceti/head/Head_asv/build/head_controller/rosidl_generator_cpp/head_controller",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/aceti/ros2_ws/build/head_controller/rosidl_adapter/head_controller:srv/Head.idl"
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller:srv/Head.idl",
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller:srv/SerialNumber.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -21,6 +22,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/aceti/ros2_ws/build/head_controller/rosidl_adapter/head_controller/srv/Head.idl"
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller/srv/Head.idl",
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller/srv/SerialNumber.idl"
   ]
 }
