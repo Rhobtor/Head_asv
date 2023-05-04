@@ -4,37 +4,61 @@ from head_controller.srv import Head
 import warnings
 import serial
 import serial.tools.list_ports
-
+import threading
 class HeadServicie(Node):
     def __init__(self):
         super().__init__("add_int_service")
         self.min_distnace_head= 0 
-        self.max_distance_head = 5 #limite superior e inferior, si se añade un sensor añadir una entrada mas al servicio
-        # serial_number='55736313338351E04022'
+        self.max_distance_head = 5 #limite superior e inferior (se pueden modificar segun las necesidades), si se añade un sensor añadir una entrada mas al servicio
+        self.remembered_port = None
+        self.ping_device = None
+        self.ping_thread = None
         self._puerto_serial = None
-        self.serial_port_find_arduino()
         self.service=self.create_service(
             Head,
             "add_distance",
             self.add_distance_callback
         )
+        self.port_monitor_thread = threading.Thread(target=self.monitor_usb_port, daemon=True)
+        self.port_monitor_thread.start()
         
-    def serial_port_find_arduino(self):
-        for pinfo in serial.tools.list_ports.comports():
-             if pinfo.serial_number == "55736313338351E04022":
-                self._puerto_serial = serial.Serial(pinfo.device)
-                break
-        if not self._puerto_serial:
-            # No se ha encontrado el dispositivo con el número de serie especificado
-            # Se podría generar una excepción o imprimir un mensaje de error
-            raise IOError("Could not find an arduino - is it plugged in?")
-            # pass        
+ 
+# funcion para buscar por los puertos USB el numero de serie del sonar, si coincide el numero de serie obtiene el puerto donde se ubica, ademas en esta fucnion lo que realizara sera una busqueda continua del sistema.
+ #  Se realiza para cuando hay una desconexion del USB y a continuacion conectamos de nuevo pueda volver a funcionar sin que tengamos que levantar el servicio de nuevo. 
+ # La busqueda se realiza de manera constante cuando no se encuentra el dispositivo con el numero de serie.
+   
         
+    def monitor_usb_port(self):
+        while True:
+            arduino_ports = [
+                p.device
+                for p in serial.tools.list_ports.comports()
+                if p.serial_number == "55736313338351E04022" #Numero de serie del sonar, cambiar con el que se este utilizando
+            ]
+            if self.remembered_port not in arduino_ports:
+                self.get_logger().info("USB device disconnected")
+                self.ping_device = None
+                self.remembered_port = None
+
+            if not self.ping_device:
+                for port in arduino_ports:
+                    try:
+                        ser = serial.Serial(port, 115200)
+                        self.ping_device = ser
+                        self.remembered_port = port
+                        self.get_logger().info(f"Connected to {port}")
+                        break
+                    except Exception as e:
+                        self.get_logger().info(f"Failed to connect to {port}: {e}")
+            rclpy.spin_once(self, timeout_sec=0.5)
 
 
-    # Se le ha añadido los simbolos + y- porque al introducir los negativos por terminal en nodo ejemplo daban error
+# funcion para el cabezal , una vez concetado realiza la escritura de la cantidad del desplazamiento si es posbile dentro de los limites.
+# Si no es posible no se realizara ningun movimiento como modo de precaucion.  
+# La direccion se determina con los simbolos a priori con "+" y "-" (pueden cambiarse).
+
     def add_distance_callback(self,request,response):
-        if self._puerto_serial:
+        if self.ping_device:
             if request.simbol == "+":
                 if request.distance <= self.max_distance_head:
                     response.movement= request.distance
@@ -43,7 +67,7 @@ class HeadServicie(Node):
                     response.movemax = self.max_distance_head
                     response.movemin=self.min_distnace_head
                     response.success=True
-                    self._puerto_serial.write(b'request.distance')
+                    self.ping_device.write(b'request.distance')
             
             elif request.simbol == "-":
                 if request.distance <= self.min_distnace_head:
@@ -53,7 +77,7 @@ class HeadServicie(Node):
                     response.movemax = self.max_distance_head 
                     response.movemin=self.min_distnace_head
                     response.success=True
-                    self._puerto_serial.write(b'request.distance')
+                    self.ping_device.write(b'request.distance')
             else:
                 response.success=False
                 response.movement=0

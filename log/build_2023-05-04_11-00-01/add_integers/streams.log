@@ -1,0 +1,41 @@
+[0.557s] Invoking command in '/home/aceti/head/Head_asv/src/add_integers': AMENT_PREFIX_PATH=/home/aceti/head/Head_asv/install/head_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aceti/head/Head_asv/install/head_controller:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aceti/head/Head_asv/install/head_controller/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aceti/head/Head_asv/build/add_integers/prefix_override:/home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages:/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/aceti/head/Head_asv/build/add_integers/build install --record /home/aceti/head/Head_asv/build/add_integers/install.log --single-version-externally-managed
+[0.752s] running egg_info
+[0.752s] creating ../../build/add_integers/add_integers.egg-info
+[0.752s] writing ../../build/add_integers/add_integers.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/add_integers/add_integers.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../build/add_integers/add_integers.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/add_integers/add_integers.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/add_integers/add_integers.egg-info/top_level.txt
+[0.753s] writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[0.754s] reading manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[0.755s] writing manifest file '../../build/add_integers/add_integers.egg-info/SOURCES.txt'
+[0.755s] running build
+[0.755s] running build_py
+[0.755s] creating /home/aceti/head/Head_asv/build/add_integers/build
+[0.755s] creating /home/aceti/head/Head_asv/build/add_integers/build/lib
+[0.755s] creating /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers
+[0.755s] copying add_integers/service_node.py -> /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers
+[0.755s] copying add_integers/__init__.py -> /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers
+[0.755s] copying add_integers/head_test.py -> /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers
+[0.755s] running install
+[0.755s] running install_lib
+[0.756s] creating /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers
+[0.756s] copying /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers/service_node.py -> /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers
+[0.756s] copying /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers/__init__.py -> /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers
+[0.756s] copying /home/aceti/head/Head_asv/build/add_integers/build/lib/add_integers/head_test.py -> /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers
+[0.757s] byte-compiling /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers/service_node.py to service_node.cpython-310.pyc
+[0.757s] byte-compiling /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers/__init__.py to __init__.cpython-310.pyc
+[0.757s] byte-compiling /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers/head_test.py to head_test.cpython-310.pyc
+[0.758s] running install_data
+[0.758s] creating /home/aceti/head/Head_asv/install/add_integers/share/ament_index
+[0.758s] creating /home/aceti/head/Head_asv/install/add_integers/share/ament_index/resource_index
+[0.758s] creating /home/aceti/head/Head_asv/install/add_integers/share/ament_index/resource_index/packages
+[0.758s] copying resource/add_integers -> /home/aceti/head/Head_asv/install/add_integers/share/ament_index/resource_index/packages
+[0.759s] copying package.xml -> /home/aceti/head/Head_asv/install/add_integers/share/add_integers
+[0.759s] running install_egg_info
+[0.760s] Copying ../../build/add_integers/add_integers.egg-info to /home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages/add_integers-0.0.0-py3.10.egg-info
+[0.761s] running install_scripts
+[0.776s] Installing move_client script to /home/aceti/head/Head_asv/install/add_integers/lib/add_integers
+[0.776s] Installing move_service script to /home/aceti/head/Head_asv/install/add_integers/lib/add_integers
+[0.776s] writing list of installed files to '/home/aceti/head/Head_asv/build/add_integers/install.log'
+[0.798s] Invoked command in '/home/aceti/head/Head_asv/src/add_integers' returned '0': AMENT_PREFIX_PATH=/home/aceti/head/Head_asv/install/head_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aceti/head/Head_asv/install/head_controller:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/aceti/head/Head_asv/install/head_controller/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aceti/head/Head_asv/build/add_integers/prefix_override:/home/aceti/head/Head_asv/install/add_integers/lib/python3.10/site-packages:/home/aceti/head/Head_asv/install/head_controller/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_integers build --build-base /home/aceti/head/Head_asv/build/add_integers/build install --record /home/aceti/head/Head_asv/build/add_integers/install.log --single-version-externally-managed

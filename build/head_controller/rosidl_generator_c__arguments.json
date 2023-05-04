@@ -1,9 +1,9 @@
 {
   "package_name": "head_controller",
-  "output_dir": "/home/aceti/ros2_ws/build/head_controller/rosidl_generator_c/head_controller",
+  "output_dir": "/home/aceti/head/Head_asv/build/head_controller/rosidl_generator_c/head_controller",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/aceti/ros2_ws/build/head_controller/rosidl_adapter/head_controller:srv/Head.idl"
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller:srv/Head.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/aceti/ros2_ws/build/head_controller/rosidl_adapter/head_controller/srv/Head.idl"
+    "/home/aceti/head/Head_asv/build/head_controller/rosidl_adapter/head_controller/srv/Head.idl"
   ]
 }
