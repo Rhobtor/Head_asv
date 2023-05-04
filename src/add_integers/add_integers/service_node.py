@@ -43,7 +43,7 @@ class HeadServicie(Node):
             if not self.ping_device:
                 for port in arduino_ports:
                     try:
-                        ser = serial.Serial(port, 115200)
+                        ser = serial.Serial(port, 115200) #Nos concetamos al puerto
                         self.ping_device = ser
                         self.remembered_port = port
                         self.get_logger().info(f"Connected to {port}")
@@ -58,18 +58,18 @@ class HeadServicie(Node):
 # La direccion se determina con los simbolos a priori con "+" y "-" (pueden cambiarse).
 
     def add_distance_callback(self,request,response):
-        if self.ping_device:
-            if request.simbol == "+":
-                if request.distance <= self.max_distance_head:
-                    response.movement= request.distance
-                    self.max_distance_head = self.max_distance_head - request.distance
+        if self.ping_device:                                                                #Si estamos concetados seguimos
+            if request.simbol == "+":                                                       
+                if request.distance <= self.max_distance_head:                              #Si no se ha llegado al maximo desplazamiento en una direccion
+                    response.movement= request.distance                                     #Actualizamos la respuesta del servicio con la distancia introducida
+                    self.max_distance_head = self.max_distance_head - request.distance      #Actualizamos los maximos desplazamiento a ambos lados
                     self.min_distnace_head=self.min_distnace_head + request.distance
                     response.movemax = self.max_distance_head
                     response.movemin=self.min_distnace_head
-                    response.success=True
-                    self.ping_device.write(b'request.distance')
+                    response.success=True                                                   #Confirmamos la respuesta del desplazamiento
+                    self.ping_device.write(b'request.distance')                             #Escribimos en el arduino la cantidad movima
             
-            elif request.simbol == "-":
+            elif request.simbol == "-":                                                     #Realizamos los mismo pero en la otra direccion
                 if request.distance <= self.min_distnace_head:
                     response.movement= request.distance
                     self.max_distance_head = self.max_distance_head + request.distance
@@ -78,7 +78,7 @@ class HeadServicie(Node):
                     response.movemin=self.min_distnace_head
                     response.success=True
                     self.ping_device.write(b'request.distance')
-            else:
+            else:                                                                           #Si no se le introduce un signo(sentido de desplazamiento) el cabezal no se movera
                 response.success=False
                 response.movement=0
                 response.movemax = self.max_distance_head 
