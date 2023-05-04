@@ -48,12 +48,12 @@ class HeadService(Node):
     def monitor_usb_port(self):
         while True:
             
-            sonar_ports = [
+            arduino_ports = [
                 p.device
                 for p in serial.tools.list_ports.comports()
                 if p.serial_number == self._serial_number 
             ]
-            if self.remembered_port not in sonar_ports:
+            if self.remembered_port not in arduino_ports:
                 self.get_logger().info("USB device disconnected")
                 self.ping_device = None
                 self.remembered_port = None
@@ -61,7 +61,7 @@ class HeadService(Node):
             
 
             if not self.ping_device:
-                for port in sonar_ports:
+                for port in arduino_ports:
                     try:
                         ser = serial.Serial(port, 115200) #conexion al puerto hallado 
                         self.ping_device = ser
