@@ -80,20 +80,20 @@ class HeadService(Node):
 
     def add_distance_callback(self, request, response):
         # Si se ha conectado al dispositivo, enviar el comando y actualizar los valores de distancia
-        if self.ping_device:
+        if self.ping_device:                                                    #Si estamos concetados seguimos
             
             if request.simbol == "+":
-                if request.distance <= self.max_distance_head:
-                    response.movement = request.distance
-                    self.max_distance_head -= request.distance
+                if request.distance <= self.max_distance_head:                  #Si no se ha llegado al maximo desplazamiento en una direccion
+                    response.movement = request.distance                        #Actualizamos la respuesta del servicio con la distancia introducida
+                    self.max_distance_head -= request.distance                  #Actualizamos los maximos desplazamiento a ambos lados
                     self.min_distance_head += request.distance
                     response.movemax = self.max_distance_head
                     response.movemin = self.min_distance_head
-                    response.success = True
-                    self.ping_device.write(str(request.distance).encode())
+                    response.success = True                                     #Confirmamos la respuesta del desplazamiento
+                    self.ping_device.write(str(request.distance).encode())      #Escribimos en el arduino la cantidad movima
                 else:
                     response.success = False
-            elif request.simbol == "-":
+            elif request.simbol == "-":                                         #Realizamos los mismo pero en la otra direccion
                 if request.distance <= self.min_distance_head:
                     response.movement = request.distance
                     self.max_distance_head += request.distance
@@ -104,7 +104,7 @@ class HeadService(Node):
                     self.ping_device.write(str(-request.distance).encode())
                 else:
                     response.success = False
-            else:
+            else:                                                               #Si no se le introduce un signo(sentido de desplazamiento) el cabezal no se movera
                 response.success = False
                 response.movement = 0
                 response.movemax = self.max_distance_head
