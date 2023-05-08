@@ -1,0 +1,4 @@
+[console_scripts]
+move_client = head_controller.head_test:main
+move_service = head_controller.service_node:main
+

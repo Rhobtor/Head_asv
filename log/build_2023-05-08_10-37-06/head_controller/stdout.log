@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/head_controller/head_controller.egg-info
+writing ../../build/head_controller/head_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/head_controller/head_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/head_controller/head_controller.egg-info/entry_points.txt
+writing requirements to ../../build/head_controller/head_controller.egg-info/requires.txt
+writing top-level names to ../../build/head_controller/head_controller.egg-info/top_level.txt
+writing manifest file '../../build/head_controller/head_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/head_controller/head_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/head_controller/head_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aceti/sonar/Head_asv/build/head_controller/build
+creating /home/aceti/sonar/Head_asv/build/head_controller/build/lib
+creating /home/aceti/sonar/Head_asv/build/head_controller/build/lib/head_controller
+copying head_controller/service_node.py -> /home/aceti/sonar/Head_asv/build/head_controller/build/lib/head_controller
+copying head_controller/__init__.py -> /home/aceti/sonar/Head_asv/build/head_controller/build/lib/head_controller
+copying head_controller/head_test.py -> /home/aceti/sonar/Head_asv/build/head_controller/build/lib/head_controller
+running install
+running install_lib
+creating /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller
+copying /home/aceti/sonar/Head_asv/build/head_controller/build/lib/head_controller/service_node.py -> /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller
+copying /home/aceti/sonar/Head_asv/build/head_controller/build/lib/head_controller/__init__.py -> /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller
+copying /home/aceti/sonar/Head_asv/build/head_controller/build/lib/head_controller/head_test.py -> /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller
+byte-compiling /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller/service_node.py to service_node.cpython-310.pyc
+byte-compiling /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller/head_test.py to head_test.cpython-310.pyc
+running install_data
+creating /home/aceti/sonar/Head_asv/install/head_controller/share/ament_index
+creating /home/aceti/sonar/Head_asv/install/head_controller/share/ament_index/resource_index
+creating /home/aceti/sonar/Head_asv/install/head_controller/share/ament_index/resource_index/packages
+copying resource/head_controller -> /home/aceti/sonar/Head_asv/install/head_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/aceti/sonar/Head_asv/install/head_controller/share/head_controller
+running install_egg_info
+Copying ../../build/head_controller/head_controller.egg-info to /home/aceti/sonar/Head_asv/install/head_controller/lib/python3.10/site-packages/head_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move_client script to /home/aceti/sonar/Head_asv/install/head_controller/lib/head_controller
+Installing move_service script to /home/aceti/sonar/Head_asv/install/head_controller/lib/head_controller
+writing list of installed files to '/home/aceti/sonar/Head_asv/build/head_controller/install.log'

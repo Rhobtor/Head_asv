@@ -1,8 +1,0 @@
-setup.py
-head_controller/__init__.py
-head_controller.egg-info/PKG-INFO
-head_controller.egg-info/SOURCES.txt
-head_controller.egg-info/dependency_links.txt
-head_controller.egg-info/top_level.txt
-head_controller/srv/__init__.py
-head_controller/srv/_head.py

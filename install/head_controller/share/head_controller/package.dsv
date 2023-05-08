@@ -1,11 +1,6 @@
-source;share/head_controller/hook/cmake_prefix_path.ps1
-source;share/head_controller/hook/cmake_prefix_path.dsv
-source;share/head_controller/hook/cmake_prefix_path.sh
-source;share/head_controller/hook/ld_library_path_lib.ps1
-source;share/head_controller/hook/ld_library_path_lib.dsv
-source;share/head_controller/hook/ld_library_path_lib.sh
-source;share/head_controller/local_setup.bash
-source;share/head_controller/local_setup.dsv
-source;share/head_controller/local_setup.ps1
-source;share/head_controller/local_setup.sh
-source;share/head_controller/local_setup.zsh
+source;share/head_controller/hook/pythonpath.ps1
+source;share/head_controller/hook/pythonpath.dsv
+source;share/head_controller/hook/pythonpath.sh
+source;share/head_controller/hook/ament_prefix_path.ps1
+source;share/head_controller/hook/ament_prefix_path.dsv
+source;share/head_controller/hook/ament_prefix_path.sh

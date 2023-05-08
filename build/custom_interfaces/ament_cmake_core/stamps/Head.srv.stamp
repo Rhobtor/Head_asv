@@ -1,0 +1,9 @@
+#request
+string simbol
+float64 distance
+---
+#response
+float64 movement
+float64 movemax
+float64 movemin
+bool success 

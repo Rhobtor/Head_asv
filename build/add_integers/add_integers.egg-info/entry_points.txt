@@ -1,4 +1,0 @@
-[console_scripts]
-move_client = add_integers.head_test:main
-move_service = add_integers.service_node:main
-

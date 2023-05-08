@@ -23,7 +23,8 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/aceti/sonar/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/aceti/head/Head_asv/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/aceti/Documents/camera_test/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)
